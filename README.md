@@ -1,39 +1,35 @@
 <!-- 
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
-
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages). 
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages). 
+Simple and customizable Drawer that give beautifull look to your app. Change the user interface of your app with this Drawer.
 -->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Use the package manager [pub](https://pub.dev/) to install rippleanimation.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+It will Make ripple animation effect background of any widget
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Just import 'package:awesome_ripple_animation/awesome_ripple_animation.dart';
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
 ```dart
-const like = 'sample';
+Scaffold(
+drawer: CustomDrawer(
+backgroundColor: Colors.teal,
+width: MediaQuery.of(context).size.width,
+widget: Container(),
 ```
+Mobile view
+![](https://github.com/AwabSabir373/Awesome_drawer/blob/29522c52e872c2325c3e2ca637813c6848ae52e8/img/screen_short.png?raw=true)
 
-## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[BSD](https://opensource.org/licenses/BSD-3-Clause/)
